@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.update.UpdateDeleteActivity">
+
+    <ImageView
+        android:id="@+id/img_update"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Nama Makanan"
+        android:layout_marginTop="16dp"
+        android:id="@+id/edt_update_nama"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Harga Makanan"
+        android:inputType="numberDecimal"
+        android:id="@+id/edt_update_harga"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Url Gambar"
+        android:lines="5"
+        android:gravity="top"
+        android:id="@+id/edt_update_url"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update"
+        android:text="Update Makanan"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete"
+        android:text="Delete Makanan"/>
+
+</LinearLayout>
+
